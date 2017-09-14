@@ -41,13 +41,15 @@ Remember to cleanup after!
    * **/** (http method GET)
      * serves the website content (html)
 
-Both time requests have following format (json):
+Both time requests have following data format (json):
+```json
 { "time": "system date and time in ISO 8601 format string" }
+```
 
 ### Website
  * language: HTML/JavaScript
  * displays time (format of the time is not important, as long as date and time are human readable):
    1. in UTC
    2. in local timezone of the browser
- * served by *API*
- * jhhjh
+ * html file must be served by *API*
+ * 
