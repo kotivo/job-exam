@@ -35,11 +35,12 @@ Remember to cleanup after!
  * has following paths to serve:
    * **/time/**
      * http method PUT
-     * receives time and saves it (json-format)
+     * receives time (as json) and saves it
      * does not need to return any data
+     * must not save time if it is not in valid ISO 8601 format
    * **/time/**
      * http method GET
-     * responds with time saved (json-format)
+     * responds (in json) with time saved
    * **/**
      * http method GET
      * serves the website (html)
