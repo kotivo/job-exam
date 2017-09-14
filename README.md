@@ -5,7 +5,6 @@
  * Create a simple api that:
    * receives time as json and saves it
    * responds to time requests by serving the time it saved previously as json
-   * suggestion is to use a simple file to save and retrieve time data between requests
  * Create a simple website that asks time from a http server and displays that time in UTC and local timezones
 
 ## Specifications
@@ -41,7 +40,14 @@ Remember to cleanup after!
      * responds with time saved (json-format)
    * **/** (http method GET)
      * serves the website content (html)
+
 Both time requests have following format (json):
-{ "time": "system date and time in ISO 8601 format" }
+{ "time": "system date and time in ISO 8601 format string" }
 
 ### Website
+ * language: HTML/JavaScript
+ * displays time (format of the time is not important, as long as date and time are human readable):
+   1. in UTC
+   2. in local timezone of the browser
+ * served by *API*
+ * jhhjh
