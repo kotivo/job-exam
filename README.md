@@ -25,7 +25,7 @@ Remember to cleanup after!
 
 **Example:**
 ```sh
-~$ gcc -u put put.c
+~$ gcc -o put put.c
 ~$ ./put localhost 4440
 ```
 
