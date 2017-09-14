@@ -48,8 +48,9 @@ Both time requests have following data format (json):
 
 ### Website
  * language: HTML/JavaScript
+ * file (html) must be served by *API*
  * displays time (format of the time is not important, as long as date and time are human readable):
    1. in UTC
    2. in local timezone of the browser
- * html file must be served by *API*
- * 
+ * update time information once per second
+   * must be done using javascript, not by reloading page
