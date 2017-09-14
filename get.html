@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Esitehtävä
+    </title>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <h1>
+          UTC:
+          <span id="time-utc">
+            0
+          </span>
+        </h1>
+      </li>
+      <li>
+        <h1>
+          Local:
+          <span id="time-local">
+            0
+          </span>
+        </h1>
+      </li>
+    </ul>
+  </body>
+  <script type="text/javascript">
+    window.setTimeout(update, 1000);
+    function update()
+    {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var data = JSON.parse(this.responseText);
+          var t = new Date(data.time);
+          document.getElementById("time-utc").innerHTML = t.toUTCString();
+          document.getElementById("time-local").innerHTML = t.toLocaleString();
+        }
+      };
+      xhttp.open("GET", "/time/");
+      xhttp.send();
+      window.setTimeout(update, 1000);
+    }
+  </script>
+</html>
