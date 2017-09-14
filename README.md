@@ -8,6 +8,9 @@
 ## Specifications
 ### Command line tool
 * language: C or C++
+* command line arguments:
+  1. hostname of a http server
+  2. port of a http server
 * can be compiled with gcc/g++
   * write compile howto at top of the program source (if your program is simple enough, this will do: *gcc -o put put.c*)
   * in Windows 10 easiest way is by using linux bash shell:
