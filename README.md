@@ -53,4 +53,5 @@ Both time requests have following data format (json):
    1. in UTC
    2. in local timezone of the browser
  * update time information once per second
-   * must be done using javascript, not by reloading page
+   * **must be done** using javascript, not by reloading page
+   * **not allowed** to use external javascript libraries
