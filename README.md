@@ -77,3 +77,4 @@ And see the time change in UTC and your local timezone by browsing to address *h
 
 You might notice that each part is their own separate system and should work with any other part that comes from different "manufacturer"!
 
+Compress these three source files (nothing else) in a *.tar.gz* and send them back to us.
