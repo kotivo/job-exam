@@ -9,7 +9,7 @@
 ### Command line tool
 * language: C or C++
 * can be compiled with gcc/g++
-  * document compile command at top of the program source
+  * write compile howto at top of the program source (if your program is simple enough, this will do: gcc -o put put.c)
 * you can use external libraries like libcurl, but you must document everything at top of the program source
 ** in Windows 10 easiest way is by using linux bash shell:
 *** Settings -> Update & Security -> For Developers -> activate "Developer Mode"
