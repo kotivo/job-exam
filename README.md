@@ -5,6 +5,7 @@
  * Create a simple api that:
    * receives time as json and saves it
    * responds to time requests by serving the time it saved previously as json
+   * suggestion is to use a simple file to save and retrieve time data between requests
  * Create a simple website that asks time from a http server and displays that time in UTC and local timezones
 
 ## Specifications
