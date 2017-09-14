@@ -74,3 +74,6 @@ You should be able to "put" current system time through command line (in other s
 ~$ ./put localhost 4440
 ```
 And see the time change in UTC and your local timezone by browsing to address *http://localhost:4440*.
+
+You might notice that each part is their own separate system and should work with any other part that comes from different "manufacturer"!
+
