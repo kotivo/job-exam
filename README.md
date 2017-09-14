@@ -58,3 +58,18 @@ Both time requests have following data format (json):
  * update time information once per second
    * **must be done** using javascript, not by reloading page
    * **not allowed** to use external javascript libraries
+
+## Conclusion
+You should end up with three different source files (names are just examples):
+ * put.c(pp)
+ * serve.php
+ * get.html
+After starting PHP's built-in web server (in one shell):
+```sh
+~$ php -S localhost:4440 serve.php
+```
+You should be able to "put" current system time through command line (in other shell):
+```sh
+~$ ./put localhost 4440
+```
+And see the time change in UTC and your local timezone by browsing to address *http://localhost:4440*.
