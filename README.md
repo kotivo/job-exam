@@ -33,13 +33,16 @@ Remember to cleanup after!
  * language: PHP
  * can be run using PHP's built-in web server: *php -S hostname:port script-name.php*
  * has following paths to serve:
-   * **/time/** (http method PUT)
+   * **/time/**
+     * http method PUT
      * receives time and saves it (json-format)
      * does not need to return any data
-   * **/time/** (http method GET)
+   * **/time/**
+     * http method GET
      * responds with time saved (json-format)
-   * **/** (http method GET)
-     * serves the website content (html)
+   * **/**
+     * http method GET
+     * serves the website (html)
 
 Both time requests have following data format (json):
 ```json
