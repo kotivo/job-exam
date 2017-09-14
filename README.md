@@ -1,4 +1,4 @@
-# Developer Entrance Exam
+# Preliminary Assignment
 
 ## Overall description
  * Create a command line tool that uploads current system time to a http server
