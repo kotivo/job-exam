@@ -1,5 +1,6 @@
 /*
- * Compile: gcc put.c -o put
+ * Compile: gcc put.c -o put -lcurl
+ * Libraries required: libcurl
  */
 
 #define _GNU_SOURCE
@@ -18,8 +19,6 @@
 
 int main(int argc, char *argv[])
 {
-	struct hostent *he;
-	struct sockaddr_in addr_in;
 	int port;
 	char *content;
 	int length;
@@ -58,7 +57,7 @@ int main(int argc, char *argv[])
 	curl_easy_setopt(curl, CURLOPT_POSTFIELDSIZE, length);
 	curl_easy_setopt(curl, CURLOPT_POSTFIELDS, content);
 	res = curl_easy_perform(curl);
-	/* Check for errors */
+	/* check for errors */
 	if (res != CURLE_OK) {
 		fprintf(stderr, "curl_easy_perform() failed: %s\n", curl_easy_strerror(res));
 	}
