@@ -62,7 +62,7 @@ Both time requests have following data format (json):
    * **not allowed** to use external javascript libraries
 
 ## Conclusion
-You should end up with three different source files (names are just examples):
+You must end up with three different source files (names are just examples):
  * put.c(pp)
  * serve.php
  * get.html
