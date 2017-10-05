@@ -30,7 +30,7 @@ Remember to cleanup after!
 ```
 
 ### API
- * language: PHP
+ * language: PHP (PHP 5 >= 5.3.0, PHP 7)
  * save time in a file called ***time.db*** as unix timestamp
  * can be run using PHP's built-in web server: *php -S hostname:port script-name.php*
  * has following paths to serve:
