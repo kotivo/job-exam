@@ -44,7 +44,7 @@ Remember to cleanup after!
      * respond (in json) with time saved
    * **/**
      * http method GET
-     * serves the website (html)
+     * serve the website (html)
 
 Both time requests have following data format (json):
 ```json
