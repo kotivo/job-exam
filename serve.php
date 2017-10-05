@@ -15,11 +15,12 @@ if ($_SERVER['REQUEST_URI'] == '/time/')
 		{
 			exit(1);
 		}
-		file_put_contents('database', json_encode($json));
+		file_put_contents('time.db', $t->getTimestamp());
 	}
 	else if ($_SERVER['REQUEST_METHOD'] == 'GET')
 	{
-		readfile('database');
+		$time = DateTime::createFromFormat('U', intval(@file_get_contents('time.db')));
+		echo json_encode(array("time" =>  $time->format('c')));
 	}
 	exit(0);
 }
