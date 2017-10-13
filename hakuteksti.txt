@@ -29,3 +29,5 @@ Lue meistä lisää osoitteessa: https://www.kotivo.fi/
 Teknisestä puolesta saat pienen kuvan lukemalla julkisen ohjelmointirajapintamme alustavan kuvauksen osoitteessa: https://kotivo.github.io/
 
 Haku päättyy 10.11.2017 jonka jälkeen vastaamme kaikille hakemuksen lähettäneille. Valituille hakijoille lähetämme esitehtävän jonka jälkeen sovimme haastatteluajan.
+
+Lähetä vapaamuotoinen hakemuksesi ja CV osoitteeseen antti.partanen@kotivo.fi.
