@@ -1,5 +1,28 @@
-Haemme pieneen kehistystiimiimme lisävoimia.
+Haluatko olla kehittämässä tulevaisuuden älykotiratkaisuja?
+Haemme pieneen kehistystiimiimme lisävoimia Joensuun toimistolle pyöräilymatkan päähän keskustasta.
 
+Kotivo Oy on kiinteistön lämmitysenergian optimointiin erikoistunut yritys. Kehittelemämme älykäs huonekohtainen lämmityksen ohjausjärjestelmä on suomalainen innovaatio. Kotivo-järjestelmää on asennettu vuodesta 2014 alkaen ja kiinteistöjen keskimääräiset lämmitysenergian vuotuiset säästöt ovat olleet yli 30 %. Yritys on osa pörssiyhtiö Panostaja-konsernia.
+Haemme nyt pätevää OHJELMISTOSUUNNITTELIJAA.
+Tulet toimimaan Kotivo-tuotekehitystiimin osana. Ohjelmistosuunnittelijana tehtäväsi ovat todella monipuolisia - työsi ei koostu pelkästään raa'asta koodauksesta, vaan työpäivät sisältävät vaihtelevia ja mielenkiintoisia työtehtäviä. Työtehtävät painottuvat mielenkiinnon kohteisiisi ja osaamiseesi. 
 
+Pääset osallistumaan laaja-alaisesti ohjelmistotuotannon eri vaiheisiin ja kehittämään osaamistasi haluamaasi suuntaan. Pääset käyttämään uusimpia teknologioita sekä innovoimaan tulevaisuuden ratkaisuja. Odotamme sinulta hyviä ohjelmointitaitoja, ongelmanratkaisukykyä, rehellisyyttä, reippautta, tunnollisuutta ja aktiivisuutta. Et myöskään pelkää kysyä apua askarruttavissa ongelmissa, ja tiimityöskentelytaidot ovat luonnollinen osa sinua. Saatat olla vastavalmistunut it-alan asiantuntija, vahvat taidot omaava työorientoitunut opiskelija, itseoppinut mestari tai jo pidemmän uran tehnyt moniosaaja.
+
+Sinulla pitäisi olla kokemusta:
+
+    * C++ ohjelmointi
+    * Linux on sinulle tuttu
+    
+Katsomme suureksi eduksi:
+    * Kaikki IoT -ympäristöihin liittyvä kiinnostus ja kokemus
+    * Linux-palvelimen ylläpito-osaaminen
+    * Tietokantaosaaminen
+    * Kelloja soittaa sanat API ja REST
+    * Sähkötekniikan ja komponenttien perusosaaminen
+    * Kokemus sulautetuista järjestelmistä
+    * Radiotekniikan tuntemus (nRF, WiFi, Bluetooth, ZigBee, Z-Wave, EnOcean...)
+
+Laita hakemuksesi meille ja kerro itsestäsi ja osaamisestasi tarkemmin! Haluamme mielellään kuulla omista projekteistasi joita pystyt demoamaan.
+ 
+Lue meistä lisää osoitteessa: www.kotivo.fi
 
 Haku päättyy 3.11.2017 jonka jälkeen vastaamme kaikille hakemuksen lähettäneille. Valituille hakijoille lähetämme esitehtävän jonka jälkeen sovimme haastatteluajan.
